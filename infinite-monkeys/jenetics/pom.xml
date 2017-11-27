@@ -12,5 +12,13 @@
 
     <artifactId>jenetics</artifactId>
     <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.jenetics</groupId>
+            <artifactId>jenetics</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
     
 </project>
