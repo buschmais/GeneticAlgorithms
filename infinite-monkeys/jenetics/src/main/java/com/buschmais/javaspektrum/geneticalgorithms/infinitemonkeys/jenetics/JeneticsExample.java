@@ -32,7 +32,6 @@ public class JeneticsExample {
          */
         Engine<CharacterGene, Double> engine = Engine
                 .builder(JeneticsExample::fitness, genotype)
-                .fitnessFunction(JeneticsExample::fitness)
                 .populationSize(100)
                 .alterers(new SinglePointCrossover<>(1), new Mutator<>(0.01))
                 .selector(new RouletteWheelSelector<>())
