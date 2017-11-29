@@ -8,9 +8,24 @@
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
 
+    <properties>
+        <jenetics.version>4.0.0</jenetics.version>
+    </properties>
+
     <modules>
         <module>infinite-monkeys</module>
+        <module>resource-planning</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.jenetics</groupId>
+                <artifactId>jenetics</artifactId>
+                <version>${jenetics.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>

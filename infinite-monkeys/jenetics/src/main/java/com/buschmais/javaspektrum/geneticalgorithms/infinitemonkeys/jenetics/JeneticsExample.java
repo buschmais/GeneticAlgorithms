@@ -1,9 +1,9 @@
 package com.buschmais.javaspektrum.geneticalgorithms.infinitemonkeys.jenetics;
 
-import org.jenetics.*;
-import org.jenetics.engine.Engine;
-import org.jenetics.engine.limit;
-import org.jenetics.util.CharSeq;
+import io.jenetics.*;
+import io.jenetics.engine.Engine;
+import io.jenetics.engine.Limits;
+import io.jenetics.util.CharSeq;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -41,7 +41,7 @@ public class JeneticsExample {
          * Evolve the population until the solution is found. Take notice of double precision.
          */
         engine.stream()
-                .limit(limit.byFitnessThreshold(0.9999999d))
+                .limit(Limits.byFitnessThreshold(0.9999999d))
                 .peek(g -> System.out.println("Generation: " + g.getGeneration() + " Best: " + g.getBestPhenotype()))
                 .collect(Collectors.toList());
     }
