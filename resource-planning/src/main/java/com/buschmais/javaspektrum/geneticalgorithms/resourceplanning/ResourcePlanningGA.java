@@ -170,12 +170,8 @@ public class ResourcePlanningGA {
                 case 5:
                     workload = 1000;
                     break;
-                case 6:
-                case 7:
-                    workload = 2500;
-                    break;
                 default:
-                    workload = 7500;
+                    workload = 2500;
                     break;
             }
             this.tasks[i] = new Task(workload);
