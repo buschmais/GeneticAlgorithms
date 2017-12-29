@@ -1,4 +1,4 @@
-package com.buschmais.javaspektrum.geneticalgorithms.resourceplanning;
+package com.buschmais.javaspektrum.geneticalgorithms.resourceplanning.singleobjective;
 
 /**
  * Class representing a resource which executes tasks

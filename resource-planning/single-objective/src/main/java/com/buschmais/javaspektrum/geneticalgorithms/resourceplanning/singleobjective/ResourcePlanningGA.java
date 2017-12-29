@@ -1,4 +1,4 @@
-package com.buschmais.javaspektrum.geneticalgorithms.resourceplanning;
+package com.buschmais.javaspektrum.geneticalgorithms.resourceplanning.singleobjective;
 
 import io.jenetics.*;
 import io.jenetics.engine.Engine;
@@ -8,7 +8,7 @@ import io.jenetics.engine.Limits;
 import java.util.*;
 
 /**
- * Implementation of the resource scheduling example using Jenetics.
+ * Implementation of the resource scheduling example (JavaSPEKTRUM 01/2018) using Jenetics.
  *
  * @author Stephan Pirnbaum
  */
