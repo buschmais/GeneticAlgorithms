@@ -9,7 +9,7 @@
     <version>1.0.0</version>
 
     <properties>
-        <jenetics.version>4.0.0</jenetics.version>
+        <jenetics.version>4.1.0-SNAPSHOT</jenetics.version>
     </properties>
 
     <modules>
@@ -22,6 +22,11 @@
             <dependency>
                 <groupId>io.jenetics</groupId>
                 <artifactId>jenetics</artifactId>
+                <version>${jenetics.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jenetics</groupId>
+                <artifactId>jenetics.ext</artifactId>
                 <version>${jenetics.version}</version>
             </dependency>
         </dependencies>
