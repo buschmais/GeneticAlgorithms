@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>single-objective</module>
+        <module>multi-objective</module>
     </modules>
 
     <parent>
